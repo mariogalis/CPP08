@@ -6,7 +6,7 @@ SRCSB	=
 
 OBJB	= ${SRCSB:.cpp=.o}
 
-NAME	= convert
+NAME	= span
 
 CXX	= c++
 
