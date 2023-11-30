@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: magonzal <magonzal@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/11/30 17:54:58 by magonzal          #+#    #+#             */
+/*   Updated: 2023/11/30 17:55:07 by magonzal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "Span.hpp"
 #include <iostream>
 
@@ -16,6 +28,7 @@ int main() {
         nums.push_back(15);
         nums.push_back(2);
         nums.push_back(9);
+        //nums.push_back(9);
    
         span.addNumber(nums.begin(), nums.end());
 

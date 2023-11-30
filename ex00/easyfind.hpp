@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   easyfind.hpp                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: magonzal <magonzal@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/11/30 17:55:40 by magonzal          #+#    #+#             */
+/*   Updated: 2023/11/30 17:56:27 by magonzal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef EASYFIND_HPP
 # define EASYFIND_HPP
 
@@ -15,9 +27,9 @@ class NotFoundException: public std::exception
 	public:
 
 		const char *what(void) const throw() 
-        {
-         return ("Number not found"); 
-        }
+		{
+			return ("Number not found"); 
+		}
 };
 
 template <typename T>
